@@ -2,21 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     height: 100vh;
-    background-image: url(./img/background-desktop\ 1.png);
+    background-image: url(./img/background-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     padding: 32px 96px 16px 96px;
+    font-family: 'Inter', sans-serif;
+    
 }
 
 header{
-    background-color: lightblue;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+}
+header a{
+    color: #22fffe;
+    font-size: 24px;
+
 }
 main{
     background-color: tomato;
