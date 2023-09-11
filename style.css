@@ -29,14 +29,65 @@ header{
 }
 header a{
     color: #22fffe;
-    font-size: 24px;
+    font-size: 1.5rem;
+    border-bottom: 4px solid transparent;
+}
+header a:hover{
+    border-bottom: 4px solid #22fffe;
+}
+header .logo-DC:hover{
+    border-bottom: 4px solid transparent;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
 
 }
-main{
-    background-color: tomato;
+.filme-container{
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.descricao{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+.descricao p{
+    width: 530px;
+    font-size: 1.5rem;
+    color: white;
+
+}
+.trailers{
+    height: 130px;
+    display: flex;
+    gap: 32px;
+    
+}
+.social-container{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    font-size: 32px;
+    color: #fff;
+}
+.social-container i:hover{
+    color: #22fffe;
 }
 footer{
-    background-color: blueviolet;
     height: 50px;
+    color: #fff;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
