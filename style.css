@@ -32,6 +32,10 @@ header a{
     font-size: 1.5rem;
     border-bottom: 4px solid transparent;
 }
+header i.fas{
+    display: none;
+
+}
 header a:hover{
     border-bottom: 4px solid #22fffe;
 }
@@ -57,6 +61,9 @@ main{
     align-items: flex-start;
     gap: 16px;
 
+}
+.descricao button{
+    display: none;
 }
 .descricao p{
     width: 530px;
@@ -138,6 +145,61 @@ footer{
 /*mobile*/
 
 @media (max-width: 480px){
+    body{
+        background-image: url(./img/background-mobile\ 1.png);
+    }
+    header{
+        justify-content: space-between;
+        padding: 0px 24px 0px 24px;
+        align-items: center;
+    }
+    header .logo-DC{
+        border-bottom: none;
+        
+    }
+    header a:not(.logo-DC){
+        display: none;
+        height: 48px;
+        
+    }
+    header i.fas{
+        display: block;
+        color: #d040ff;
+        font-size: 32px;
+    
+    }
+.descricao{
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    height: 100%;
+    padding-bottom: 30px;
+} 
+.descricao a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    background-color: #d040ff;
+    color: #fff;
+    border: 4px solid #22fffe;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    
+}   
+.descricao img{
+    width: 95vw;
 
+}   
+
+.descricao p{
+    display: none;
+}
+.trailers{
+    display: none;
+}
 }
 
