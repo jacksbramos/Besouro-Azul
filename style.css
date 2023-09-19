@@ -104,7 +104,7 @@ footer{
 @media (max-width:768px){
     body{
         padding: 32px 0px 0px 0px;
-        background-image: url(img/background-Tablet.png);
+        background-image: url(./img/background-tablet.png);
     }
 
     .social-container{
@@ -130,7 +130,7 @@ footer{
     }
 
     .trailers img{
-        width: 500px;
+        width: 350px;
 
     }
         .trailers a:nth-child(3){
